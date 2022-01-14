@@ -1,0 +1,7 @@
+.todos-container {
+    margin-top: 20px;
+    width: 100%;
+    height: fit-content;
+    max-height: calc(100vh - 480px);
+    overflow: auto;
+}
