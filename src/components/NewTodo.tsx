@@ -28,7 +28,7 @@ const NewTodo: React.FC = () => {
     };
 
     return (
-        <div className={styles['add-todo-container']}>
+        <div className={styles.addTodoContainer}>
             <form onSubmit={onSubmitHandler}>
                 <TextField
                     label="New Item"

@@ -20,9 +20,12 @@ const TodoItem: React.FC<{ item: Todo }> = props => {
             <ListItemIcon>
                 <Checkbox edge="start" checked={todo.checked} onChange={toggleCheck} />
             </ListItemIcon>
-            <ListItemText sx={{ wordWrap: 'break-word' }} primary={todo.text} />
+            <ListItemText
+                classes={{ root: `${todo.checked ? styles.checked : ''} ${styles.wrapText}` }}
+                primary={todo.text}
+            />
             <IconButton edge="end" onClick={todosCtx.remove.bind(null, todo.id)}>
-                <DeleteForever />
+                <DeleteForever color="error" />
             </IconButton>
         </ListItem>
     );

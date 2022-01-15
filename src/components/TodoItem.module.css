@@ -1,0 +1,8 @@
+.wrapText {
+    word-wrap: break-word;
+}
+
+.checked {
+    text-decoration: line-through;
+    opacity: 0.7;
+}

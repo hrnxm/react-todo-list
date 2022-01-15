@@ -12,7 +12,7 @@ const Todos: React.FC = () => {
     return todosCtx.items.length === 0 ? (
         <></>
     ) : (
-        <Paper elevation={4} className={styles['todos-container']}>
+        <Paper elevation={4} className={styles.todosContainer}>
             <List disablePadding>
                 {todosCtx.items.map(item => {
                     return !item.checked && <TodoItem key={item.id} item={item} />;
