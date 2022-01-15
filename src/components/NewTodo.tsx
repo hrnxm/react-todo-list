@@ -1,7 +1,8 @@
 import React, { useContext, useState } from 'react';
-import { TodosCtx } from '../store/todo-ctx';
+import { TodosCtx } from '../store/TodosCtx';
 import { Button, TextField } from '@mui/material';
 import { AddCircle } from '@mui/icons-material';
+import { ActionType } from '../models/Action';
 
 import styles from './NewTodo.module.css';
 
@@ -20,7 +21,7 @@ const NewTodo: React.FC = () => {
         event.preventDefault();
 
         if (inputValue.trim().length > 0) {
-            todosCtx.add(inputValue);
+            todosCtx.dispatch({ type: ActionType.Add, text: inputValue });
             setInputValue('');
         } else {
             setIsInputValid(false);
