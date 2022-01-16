@@ -2,7 +2,7 @@
     "name": "react-todo-list",
     "version": "1.0.0",
     "private": true,
-    "homepage": "https://hrnxm.github.io/",
+    "homepage": "https://hrnxm.github.io/react-todo-list/",
     "dependencies": {
         "@emotion/react": "^11.7.1",
         "@emotion/styled": "^11.6.0",
