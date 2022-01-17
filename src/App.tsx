@@ -8,7 +8,7 @@ import Logo from './assets/images/logo.png';
 function App() {
     return (
         <>
-            <img src={Logo} alt="TODO" className="main-logo" />
+            <img src={Logo} alt="Checkmark Logo" className="mainLogo" />
             <main>
                 <TodosCtxProvider>
                     <NewTodo />
