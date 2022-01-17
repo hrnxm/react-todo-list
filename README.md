@@ -14,7 +14,7 @@ A general goal was to make an example app that combines React with TypeScript, R
 To do (no pun intended):
 
 -   [ ] Improve responsiveness
--   [x] Make rows editable
+-   [ ] Make rows editable
 
-☑️ Checkmark logo used for this example belongs to [Microsoft To Do](https://todo.microsoft.com/).
+✔️ Checkmark logo used for this example belongs to [Microsoft To Do](https://todo.microsoft.com/).
 I'm not associated with the trademark owner and it is used strictly for educational purposes (don't sue me, bro).
