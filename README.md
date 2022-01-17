@@ -1,4 +1,4 @@
-Simple TODO list created while learning [ReactJS](https://reactjs.org/) with [MUI](https://mui.com/).
+Simple To-Do list created while learning [ReactJS](https://reactjs.org/) with [MUI](https://mui.com/).
 
 [PREVIEW](https://hrnxm.github.io/react-todo-list/)
 
